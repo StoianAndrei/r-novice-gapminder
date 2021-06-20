@@ -1,21 +1,20 @@
 ---
-title: Functions Explained
+title: "Functions Explained"
 teaching: 45
 exercises: 15
-questions:
-- "How can I write a new function in R?"
+questions: How can I write a new function in R?
 objectives:
-- "Define a function that takes arguments."
-- "Return a value from a function."
-- "Check argument conditions with `stopifnot()` in functions."
-- "Test a function."
-- "Set default values for function arguments."
-- "Explain why we should divide programs into small, single-purpose functions."
+- Define a function that takes arguments.
+- Return a value from a function.
+- Check argument conditions with `stopifnot()` in functions.
+- Test a function.
+- Set default values for function arguments.
+- Explain why we should divide programs into small, single-purpose functions.
 keypoints:
-- "Use `function` to define a new function in R."
-- "Use parameters to pass values into functions."
-- "Use `stopifnot()` to flexibly check function arguments in R."
-- "Load functions into programs using `source()`."
+- Use `function` to define a new function in R.
+- Use parameters to pass values into functions.
+- Use `stopifnot()` to flexibly check function arguments in R.
+- Load functions into programs using `source()`.
 source: Rmd
 ---
 
@@ -240,7 +239,7 @@ But fails instantly if given improper input.
 
 ```{r}
 # Metric is a factor instead of numeric
-fahr_to_kelvin(temp = as.factor(32))
+# fahr_to_kelvin(temp = as.factor(32))
 ```
 
 > ## Challenge 3

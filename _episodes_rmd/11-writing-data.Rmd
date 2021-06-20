@@ -107,7 +107,7 @@ Let's switch back to the shell to take a look at the data to make sure it looks
 OK:
 
 ```{r, engine='bash'}
-head cleaned-data/gapminder-aus.csv
+<!-- head cleaned-data/gapminder-aus.csv -->
 ```
 
 Hmm, that's not quite what we wanted. Where did all these
